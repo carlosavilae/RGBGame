@@ -1,0 +1,79 @@
+
+<html>
+	<head>
+		<title>RGB Game</title>
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/rgb.css">	
+	</head>
+	<body>
+	
+		<!-- START MAIN CONTAINER -->
+		<div class="container-fluid">
+			<h1>The Great
+				<br>
+				<span id="colorDisplay"></span>
+				<br>
+				Color Game
+			</h1>
+	
+			<div id="stripe">
+				<button id="reset">New Colors</button>
+				<span id="message"></span>
+				<button id="easyBtn">Easy</button>
+				<button id="HardBtn">Hard</button>
+			</div>
+			<!-- END OF NAV BAR -->
+		</div>
+		<!-- END OF JUMBOTRON -->
+	
+		<div class="container text-center" >
+			<!-- START ROW 1 -->
+			<div class="row text-center" id="container-format">
+				<div class="col col-md-4">
+					<div class="square"></div>
+				</div>
+				<div class="col col-md-4">
+					<div class="square"></div>
+				</div>
+	
+				<div class="col col-md-4">
+					<div class="square"></div>
+				</div>
+			</div>
+			<!-- END OF ROW 1 -->
+	
+			<!-- START ROW 2 -->
+			<div class="row text-center" id="container-format">
+				<div class="col col-md-4">
+					<div class="square"></div>
+				</div>
+				<div class="col col-md-4">
+					<div class="square"></div>
+				</div>
+	
+				<div class="col col-md-4">
+					<div class="square"></div>
+				</div>
+			</div>
+			<!-- END OF ROW 2 -->
+	
+		</div>
+	
+		<!-- START FOOTER -->
+		<div class="container text-center text-light">
+			<div class="footer">
+				<p>Carlos Avila <i class="far fa-copyright"></i> 2018</p>
+			</div>		
+		</div>
+		<!-- END OF FOOTER -->
+	
+	
+	
+		<!-- SCRIPTS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="assets/js/rgb.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	</body>
+	</html>
